@@ -1,3 +1,4 @@
+// switch statement
 const grade = 70;
 switch (grade) {
   case 100:
@@ -81,4 +82,3 @@ let isStudent = false;
 let isSenior = true;
 let price = isStudent ? 8 : isSenior ? 6 : 12
 console.log (price);
-
