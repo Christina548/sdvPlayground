@@ -26,3 +26,29 @@ for (let run = 0; run < 3; run++) {
 
     console.log ('run east') 
 }
+
+let person = {firstName:"John", lasName:"Doe", age:25};
+
+let output = "";
+let x;
+for (x in person) {
+  output += person[x];
+}
+console.log (output);
+
+let object = { a: 1, b: 2, c: 3, method: () => { } };
+for (let value in object)
+console.log(value, object);
+
+let string = 'NMIT';
+for (let value of string)
+  console.log(value);
+
+  let array = [0, 1, 2, 3];
+  for (let value of array)
+  console.log (value);
+
+
+let Y = 10;
+while (Y++ < 15)
+console.log(Y);

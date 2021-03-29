@@ -37,3 +37,4 @@ let enumerable = { property : 1, method : () => {} };for (let key of Object.keys
 let c = 0;
 while (c++ <5)
 console.log (c);
+
