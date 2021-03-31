@@ -93,12 +93,3 @@ console.log (newProps)
 
 //look up prototype methods in MDN and try out each one
 
-//call a function 
-console.log('Hello!')
-function greet () { 
-    return 'Hello from function '
-
-}
-const print = 'My name'
-console.log (greet ())
-another var = 5

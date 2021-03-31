@@ -57,8 +57,10 @@ myObj['newKey'] = 'someValue'
 //
 console.log(myObj)
 
-
-//cracking the coding interview book McDowell
-//assessment two is arrays, objects and functions(?)
-
+//functions
+//declare a function
+function bottleCapper(bottle, cap) {
+//return gets output
+   return bottle + cap 
+}
 
