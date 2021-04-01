@@ -11,6 +11,7 @@ for (let a = 0;; a++) {
 break;
 };
 
+//function counter
 let counter = 0;
 function inc() { counter++; }for (let i = 0; i < 10; i++, inc());
 console.log(counter);
