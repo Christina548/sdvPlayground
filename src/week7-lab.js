@@ -82,12 +82,12 @@ const numberDataType = (arr) => arr.map((x) => Number (x))
 const arrToString = (arr) => arr.join('');
 
 //function to convert object to an array
-function objToArray(objarr){ 
-     let arr = []
-     for (let i in obj) {
-         arr.push([i;obj[i]);
-     }
-    return arr
+// function objToArray(objarr){ 
+//      let arr = []
+//      for (let i in obj) {
+//          arr.push([i;obj[i]);
+//      }
+//     return arr
 
 // refactor to one line
 const objToArray2 = obj => object.entries(obj) 
