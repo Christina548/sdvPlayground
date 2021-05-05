@@ -133,12 +133,16 @@ function firstCapFunc (arr){
 //if they are present its true, if not its false
 // eg. ([1, 3], [1, 3, 3, 5]) -> true
 //eg. ([1, 3, 10], [10, 8, 8, 8]) -> false
+//create a function with two parameters
 function comparing(a,b) {
-    //
+    //use for loop to go through a parameter
     for (let i = 0; i <a.length; i++){
+        //if statement checks the iterated values in a and compares them to the iterated values of
+        // === if a[i] and b[i] have the same values return true
         if (a[i] ===b[i]) { 
             return true
         }
+        //if not the same return false
         return false
     }
 }
