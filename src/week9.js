@@ -88,8 +88,8 @@ function firstCapFunc (arr){
     for (let i = 0; i < arr.length; i++){
         //arr[i] = means go through same array and use same values but different format
         //arr[i].charAt(0) = take first letter 
-        // + concatenate adds first letter to other charaacters in String
-        //arr toLowerCase changes characters
+        // + concatenate adds first letter to other characters in String
+        //arr[i].toLowerCase changes characters to lower case
         //.substring = from index 1 change everything to lower case (index 0 is first letter)
         //The substring function returns a part of a given string.
         arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].toLowerCase().subString(1)
@@ -112,22 +112,22 @@ function firstCapFunc (arr){
 //     return Array.from(x).filter(e, i, a) => x !== a(i-1)
 
 // }
-// let es5Func = function(x) {
+let es5Func = function(x) {
 //     //create a variable to store result
-//     let newArr = []
+    let newArr = []
 //     //for loop accesses all elements in the array
-//     for (let i = 0; i < x.length; i++){
+ for (let i = 0; i < x.length; i++){
 //         //x[i] iterates through x, !== not equal value or type so if x is not equal
 //         //x[i+1] moves on to check next item to see if its equal to last item
-//         if (x[i]) !== x[i + 1]; {
+if (x[i]) !== x[i + 1]; {
 //             // .push adds new values to the variable newArr
 //             //(x[i]) only adds non duplicated values to newArr
-//         newArr.push(x[i])
-//     }
-// }
+        newArr.push(x[i])
+    }
+ }
 // //return the updated variable newArr
-// return newArr
-// }
+ return newArr
+ }
 
 //write a function that checks if the values in the first array are present in the second array.
 //if they are present its true, if not its false
