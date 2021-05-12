@@ -16,7 +16,7 @@ function calFunc (num1, operator, num2) {
 }
 //refactor weather lab with this method
 
-//create a function that takes an array and returns the sum of all its items in an arrays
+//create a function that takes an array and returns the sum of all its items in an array
 //the item in an array can be another array
 //sumFunc([1, [2], [1], 3]) -> 7
 //1 + 2 + 1 + 3 = 70
@@ -40,7 +40,7 @@ const flatFunc = (arr) => {
     //loop through the array with forEach
     arr.forEach(element => {
         //? tenary operator = conditional statement
-        //forEach lopps through with callback function 
+        //forEach loops through with callback function 
         //if every element in the array is an array push it to the result.push
         //then call the function inside the function to push the element into the result
         //spread operator loops through all the elements and puts them in a list
